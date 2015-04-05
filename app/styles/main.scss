@@ -3,11 +3,24 @@ $icon-font-path: '../fonts/';
 // bower:scss
 @import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+// ----------------------------------------------------------------------------
+// Sass Vatiables
+// ----------------------------------------------------------------------------
+$font-stac: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$bg-color: #222;
+$text-color: #fff;
+$font-stac: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 
 body {
-  font-family: 'Noto Sans Japanese', serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;padding: 0;
+  background-color: $bg-color;
   font-size: 16px;
+  color: $text-color;
+  font-family: $font-stac;
 }
 
 /* Small devices (tablets, 768px and up) */
